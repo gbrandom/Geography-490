@@ -27,9 +27,15 @@
 			**Note** each option also has positive polarity data as well 
 
 1. **Looking at the data**
-	1. ![Rendered photo of 1986 data](https://github.com/gbrandom/Geography-490/blob/master/1986.JPG)
-	Looking at this first photo shows a lack of data west of the missippi.
+	 
+	![Rendered photo of 1986 data](https://github.com/gbrandom/Geography-490/blob/master/1986.JPG)
 	
-	2.  ![Rendered photo of 19887 data](https://github.com/gbrandom/Geography-490/blob/master/1987.JPG)
+	Looking at this first photo shows what looks like a lack of data  west of the missippi. Before one can conclude that there is not data there you have to compare several years. 
+	
+	 ![Rendered photo of 19887 data](https://github.com/gbrandom/Geography-490/blob/master/1987.JPG)
+	
+	![Rendered photo of 19887 data](https://github.com/gbrandom/Geography-490/blob/master/1988.JPG)
+
+	![Rendered photo of 19887 data](https://github.com/gbrandom/Geography-490/blob/master/1989.JPG)
 
  
