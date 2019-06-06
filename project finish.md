@@ -34,10 +34,18 @@
 	
 	 ![Rendered photo of 19887 data](https://github.com/gbrandom/Geography-490/blob/master/1987.JPG)
 	
-	![Rendered photo of 1988 data](https://github.com/gbrandom/Geography-490/blob/master/1988.JPG)
+	![Rendered photo of 1996 data](https://github.com/gbrandom/Geography-490/blob/master/1996.JPG)
 
-	![Rendered photo of 1989 data](https://github.com/gbrandom/Geography-490/blob/master/1989.JPG)
+	![Rendered photo of 2000 data](https://github.com/gbrandom/Geography-490/blob/master/2000.JPG)
 
-	![Rendered photo of 1990 data](https://github.com/gbrandom/Geography-490/blob/master/1990.JPG)
+	![Rendered photo of 2008 data](https://github.com/gbrandom/Geography-490/blob/master/2008.JPG)
  
-	![Rendered photo of 1991 data](https://github.com/gbrandom/Geography-490/blob/master/1991.JPG)
+	![Rendered photo of 2012 data](https://github.com/gbrandom/Geography-490/blob/master/2012.JPG)
+
+	This is where we can see that the first two data sets are missing something while the rest have data across the world. 
+
+5. **Where is all this data still useful**
+	The data clearly becomes completely useful over time so its important to know where it is useful and where for each of the 
+
+	***Insert r code here when I track it back down where I saved the working code*** 
+	 
