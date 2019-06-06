@@ -38,6 +38,6 @@
 
 	![Rendered photo of 1989 data](https://github.com/gbrandom/Geography-490/blob/master/1989.JPG)
 
-	![Rendered photo of 1990 data](https://github.com/gbrandom/Geography-490/blob/master/1989.JPG)
+	![Rendered photo of 1990 data](https://github.com/gbrandom/Geography-490/blob/master/1990.JPG)
  
-	![Rendered photo of 1991 data](https://github.com/gbrandom/Geography-490/blob/master/1989.JPG)
+	![Rendered photo of 1991 data](https://github.com/gbrandom/Geography-490/blob/master/1991.JPG)
