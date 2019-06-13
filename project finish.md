@@ -47,7 +47,8 @@
 5. **Where is all this data still useful**
 	The data clearly becomes completely useful over time so its important to know where it is useful and where for each of the 
 
-'''{r}
+```{r}
+
 light_path <- "C:/rcode/"
 light_name <- "nldn-1986.nc"
 light_file <- paste(light_path, light_name, sep="")
@@ -72,4 +73,4 @@ cutpts <- c(10,20,30,40,50,60,70,80,90)
 color_class <- findInterval(light_pts$lightcov, cutpts)+1
 plot(light_pts$x, light_pts$y, col=plotclr[color_class], pch=16, cex=0.25)
 plot(coast_lines, add=TRUE) 
-'''
+```
