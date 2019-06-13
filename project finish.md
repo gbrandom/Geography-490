@@ -47,5 +47,29 @@
 5. **Where is all this data still useful**
 	The data clearly becomes completely useful over time so its important to know where it is useful and where for each of the 
 
-	***Insert r code here when I track it back down where I saved the working code*** 
-	 
+'''{r}
+light_path <- "C:/rcode/"
+light_name <- "nldn-1986.nc"
+light_file <- paste(light_path, light_name, sep="")
+light <- raster(light_file) # open nldn-1986.nc
+light
+
+shape_path <- "c:/r/"
+coast_shapefile <- paste(shape_path, "ne_50m_coastline.shp", sep="")
+layer <- ogrListLayers(coast_shapefile)
+ogrInfo(coast_shapefile, layer=layer)
+coast_lines <- readOGR(coast_shapefile, layer=layer)
+summary(coast_lines)
+plot(coast_lines, col="purple")
+
+mapTheme <- rasterTheme(region=brewer.pal(8,"Greens"))
+plt <- levelplot(light, margin=F, par.settings=mapTheme)
+plt + latticeExtra::layer(sp.lines(coast_lines, col="black", lwd=0.5))
+
+light_pts <- as(light "SpatialPointsDataFrame")
+plotclr <- brewer.pal(9,"Greens")
+cutpts <- c(10,20,30,40,50,60,70,80,90)
+color_class <- findInterval(light_pts$lightcov, cutpts)+1
+plot(light_pts$x, light_pts$y, col=plotclr[color_class], pch=16, cex=0.25)
+plot(coast_lines, add=TRUE) 
+'''
